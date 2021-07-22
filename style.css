@@ -1,13 +1,98 @@
 /* Type your code here */
 
+body {
+	background-image: url(.//assets/background-image1.png);
+	background-repeat: no-repeat;
+	/* background-position: 0px 60px; */
+	background-size: 1920px;
+	margin-top: 0pxs;
+	background-repeat: no-repeat;
+}
 
-/* change the font family and spacing as per your project font */
+.logo img{
+
+margin-left: 1500px;
+margin-top: 50px;
+}
+
+h1{
+font-size: 50px;
+
+text-transform: uppercase;
+font-weight: bolder;
+}
+
+h3{
+font-size: 35px;
+font-weight: 500em;
+color: rgb(71, 71, 70);
+}
+.container{
+margin-left: 80px;
+	
+}
+
+table{
+table-layout:initial;
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: 500;
+font-weight: bolder;
+border-collapse: collapse;
+
+width: auto;
+height: auto;
+background: white;
+column-count: 2;
+column-gap: 50px;
+
+}
+
+th{
+background:orangered;
+color:white;	
+}
+
+th, td {
+padding: 10px;
+
+border-bottom: 1px solid grey;
+
+}
+.out{
+  
+  font-weight: lighter;
+  color: rgb(128, 125, 123);
+  text-align: center; 
+}
+
+a{
+	
+	
+	color: rgb(8, 132, 189);
+	text-decoration:none;
+
+}
+
+.footer{
+display:flex;
+flex-direction: row;
+align-content: flex-end;
+position: relative;
+top: 20px;
+margin-left: 80px;
+font-size: 18px;
+font-family: Nunito Sans;
+font-style: normal;
+
+}
+
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 20px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
